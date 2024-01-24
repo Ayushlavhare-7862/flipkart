@@ -1,0 +1,642 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #fffefe;
+    padding: 12px;
+    display: flex;
+    
+}
+.navlogo {
+    width: 160px;   
+    height: 50px; 
+
+}
+.logo {
+    background-image: url(flipkart\ logo.svg);
+    height: 40px;
+    background-repeat: no-repeat;
+    
+    
+}
+.border:hover {
+    border: 1px solid rgb(0, 0, 0);
+}
+/* 1ST box OVER */
+
+.navsearch  {
+    display: flex;
+    
+}
+.serachinput {
+    height: 40px;
+    width: 700px;
+    border-radius: 7px;
+    border: 2px solid white;
+    background-color: rgb(219, 255, 255);
+    font-size: large;
+}
+.searchicon {
+    height: 24px;
+    width: 30px;
+    padding: 8px 8px 8px 12px;
+    background-color:rgb(219, 255, 255)  ;
+    margin-left: 30px;
+    margin-top: 2px;
+    border-radius: 7px;
+}
+/* 2nd box over */
+.login{
+    display: flex;
+    padding: 8px;
+    
+    
+}
+.user {
+    margin-right: 8px;
+    margin-left: 30px;
+    
+
+}
+a {
+    text-decoration: none;
+}
+
+/* 3rd box over */
+.cart {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.cartlogo {
+    margin-right: 8px;
+}   
+/* 4th box over */
+.shop {
+    display: flex;
+    margin: 10px 0px 0px 30px;
+    padding: 0px 20px;
+   
+}
+.shoplogo {
+    margin:0px 8px 0px 0px;
+
+}
+.bar {
+    height:40px;
+    width: 70px;
+    padding: 0px 20px;
+    margin-left: 50px;
+}
+.barlogo {
+    padding: 8px;
+}
+/* navbar section over */
+.menuproducts {
+    height: 126px;
+    width: 100%;
+    margin: 5px 10px 10px 10px;
+    background-color: #f7feff;
+    display: flex;
+}
+.mobile {
+    height:64px;
+    width: 120px;
+    padding: 16px 16px 16px 24px;
+    margin-left: 100px;
+}
+.mobilelogo {
+    height: 75px;
+    background-repeat: no-repeat;
+     margin-bottom: 12px;
+    background-image: url(sticker\ 1.webp);
+}
+.text2 {
+    margin-right: 8px;
+    font-size: 14px;
+
+}
+.electronics {
+    height: 64px;
+    width: 120px;
+    padding: 16px 16px 10px 24px;
+    
+}
+.elogo {
+    background-image: url(sticker\ 2.webp);
+    background-repeat: no-repeat;
+    height: 75px;
+    margin-bottom: 12px;
+    
+}
+.etext {
+    font-size: 14px;
+    
+}
+.appliances {
+    height: 75px;
+    width: 120px;
+    padding: 16px 16px 16px 24px;
+}
+.alogo {
+    background-image: url(sticker\ 3.webp);
+    background-repeat: no-repeat;
+    height: 75px;
+    margin-bottom: 12px;
+}
+.atext {
+    font-size: 14px;
+}
+.fashion {
+    height: 75px;
+    width: 120px;
+    padding: 16px 16px 16px 24px;
+
+}
+.fashionlogo {
+    background-image: url(sticker\ 4.webp);
+    background-repeat:no-repeat ;
+    height: 75px;
+    margin-bottom: 12px;
+}
+.ftext {
+    font-size: 14px;
+    margin-left: 10px;
+    
+}
+.beauty{
+    height: 75px;
+    width: 120px;
+    padding: 16px 16px 16px 24px;
+}
+.beautylogo {
+    background-image: url(sticker\ 5.webp);
+    background-repeat: no-repeat;
+    height: 75px;
+    margin-bottom: 12px;
+}
+.btext {
+
+    font-size: 14px;
+    margin-left: 10px;
+}
+.kitchen {
+    height: 75px;
+    width: 120px;
+    padding: 16px 16px 16px 24px;
+}
+.kitchenlogo {
+    background-image: url(sticker\ 6.webp);
+    height: 75px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.ktext {
+    font-size: 14px;
+}
+.furniture {
+    height: 75px;
+    width: 120px;
+    padding: 16px 16px 16px 24px;
+}
+.furniturelogo {
+        background-image: url(sticker\ 7.webp);
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+        height: 75px;
+}
+.ftext{
+    font-size: 14px;
+}
+.flights {
+    height: 75px;
+    width: 120px;
+    padding: 16px 16px 16px 24px;
+}
+.flightlogo {
+    background-image: url(sticker\ 8.webp);
+    height: 75px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    
+}
+.ftext{
+ font-size: 14px;
+}
+
+.grocery {
+    height: 75px;
+    width: 120px;
+    padding: 16px 16px 16px 24px;
+}
+.grologo {
+    background-image: url(sticker\ 9.webp);
+    height: 75px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+/* menu section over */
+.sliderdiv {
+    height: 250px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    animation: slider 7s alternate  2s infinite step-start;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    box-shadow: 2px 2px 3px grey;
+}
+@keyframes slider {
+    0%{background-image: url(scroll\ image\ 5.webp);    }
+    25%{background-image: url(scroll\ image\ 2.webp);}
+    50% {background-image: url(scroll\ image\ 3.webp);}
+    75% {background-image: url(scroll\ image\ 4.webp);}
+    100%{background-image: url(scroll\ image1.webp);} 
+}
+.add{
+    
+    width: 100%;
+    height: 100px;
+    background-image: url(bank\ add.webp);
+}
+.dtext {
+    background-color: rgb(255, 255, 255);
+ padding: 16px;
+ height: 45px;
+ margin-top: 10px;
+ border: 2px solid lightcyan;
+}
+.dealtext {
+    font-size: 25px;
+    font-weight: bolder;
+}
+.deals{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    background-color: rgb(249, 249, 249);
+    padding: 10px 10px 10px 10px;
+    justify-content: space-evenly;
+}
+.dealimg1 {
+height: 250px;
+width: 450px;
+background-image: url(off.webp);
+background-size: cover;
+}
+.dealimg2 {
+    height: 250px;
+width: 450px;
+background-image: url(haeter.webp);
+background-size: cover;
+}
+.Flight {
+    height: 250px;
+width: 163px;
+background-image: url(flightimg.webp);
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+    
+
+.featuredheading {
+ background-color: rgb(255, 255, 255);
+ padding: 16px;
+ height: 45px;
+}
+.fetext{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.featuredbrand {
+    width: 100%;
+    height: 250px;
+    padding: 0px 4px 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fbrand1 {
+    height: 200px;
+    width: 300px;
+    background-image: url(featured\ \ brand\ 1.webp);
+    background-size: cover;
+}
+.fbrand2 {
+    height: 200px;
+    width: 300px;
+    background-image: url(featured\ \ brand\ 2.webp);
+    background-size: cover;
+}
+.fbrand3 {
+    height: 200px;
+    width: 300px;
+    background-image: url(featured\ \ brand\ 3.webp);
+    background-size: cover;
+}
+ .fbrand4 {
+    height: 200px;
+    width: 300px;
+    background-image: url(featured\ \ brand\ 4.webp);
+    background-size: cover;
+ }   
+
+.edealsheading {
+    height: 45px;
+    padding: 16px;
+    width: 100%;
+    
+}
+.eheading  {
+    font-size: 25px;
+    font-weight: bolder;
+}
+.electronicdeals {
+    height: 350px;
+    width: 100%;
+    padding: 0px 4px 12px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+.box1 {
+    height: 330px;
+    width: 210px;
+    background-image: url(imag\ e\ deals.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box2 {
+    height: 330px;
+    width: 210px;
+    background-image: url(ming\ \ \ e\ deals\ 2.png);
+    margin-top: 3px;
+}
+.box3  {
+    height: 330px;
+    width: 210px;
+    background-image: url(img\ e\ deals\ 3.png);
+    margin-bottom: 3px;
+}
+.box4  {
+    height: 330px;
+    width: 210px;
+    background-image: url(img\ of\ e\ deals\ 4.png);
+    background-repeat: no-repeat;
+}
+.box5  {
+    height: 330px;
+    width: 210px;
+    background-image: url(img\ e\ deals\ 5.png);
+    background-repeat: no-repeat;
+}
+.box6 {
+    height: 330px;
+    width: 210px;
+    background-image: url(img\ e\ deals\ 6.png);
+    background-repeat: no-repeat;
+}
+
+.footertext {
+    height: 750px;
+    width: 100%;
+}
+.headingfo {
+    margin: 14px 0px;
+    padding: 14px 0px;
+}
+.fotext {
+    color: #565656;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.randtext {
+    font-size: 14px;
+    margin-left: 14px;
+    padding: 14px 0px ;
+}
+.footer{
+    height: 280px;
+    width: 100%;
+    background-color: black;
+    padding: 40px 20px 0px;
+    display: flex;
+}
+.about {
+    height: 170px;
+    width: 220px;
+    color: white;
+    
+}
+.ab {
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 50 ;
+    color: #878787;
+    
+}
+#a12 {
+    color: white;
+    font-size:12px;
+    line-height: 20px;
+
+}
+
+.social {
+    height: 170px;
+    width: 220px;
+    color: white;
+   
+    color: #878787;
+}
+.socialtext {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+#a13 {
+    color: white;
+    font-size:12px;
+    line-height: 20px
+}
+.help {
+    height: 170px;
+    width: 220px;
+    color: white;
+}
+.p {
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 50 ;
+    color: #878787;
+}
+#a14 {
+    color: white;
+    font-size:12px;
+    line-height: 20px;
+}
+.policy {
+    height: 170px;
+    width: 220px;
+    color: white;
+}
+.potext {
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 50 ;
+    color: #878787;
+}
+#a15 {
+    color: white;
+    font-size:12px;
+    line-height: 20px;
+}
+#hr {
+    height: 250px;
+    
+}
+.mail {
+    height: 170px;
+    width: 220px;
+    color: white;
+    padding-left: 32px;
+}
+.ta   {
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 50 ;
+    color: #878787;
+}
+#a16 {
+    color: white;
+    font-size:13px;
+    line-height: 20px;
+}
+.address {
+    height: 170px;
+    width: 220px;
+    color: white;
+    padding-left: 10px;
+}
+.re {
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 50 ;
+    color: #878787;
+}
+.para {
+    color: white;
+    font-size:13px;
+    line-height: 20px;
+}
+.icon {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.seller {
+    height: 20px;
+    width: 140px;
+    display: flex;
+    margin-top: 40px;
+    
+}
+.sicon {
+    height: 12px;
+    width: 13px;
+    color: greenyellow;
+}
+.stext {
+    color: white;
+    font-size: 12px;
+    margin-left: 30px;
+    font-weight: bolder;
+
+}
+.adver  {
+    height: 20px;
+    width: 130px;
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+}
+.adicon {
+ height: 12px;
+    width: 13px;
+    color: greenyellow;
+}
+.adtext      {
+    color: white;
+    font-size: 12px;
+    margin-left: 30px;
+    
+    font-weight: bolder;
+}
+.gift {
+    height: 20px;
+    width: 130px;
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.gificon {
+    height: 12px;
+    width: 13px;
+    color: greenyellow;
+}
+.gftext {
+    color: white;
+    font-size: 12px;
+    margin-left: 30px;
+    font-weight: bolder;          
+}
+.helpcentre {
+    height: 20px;
+    width: 130px;
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+}
+.helpicon {
+    height: 12px;
+    width: 13px;
+    color: greenyellow;
+}
+.hetext {
+    color: white;
+    font-size: 12px;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+.copyright {
+    height: 20px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+}
+.cicon {
+    height: 12px;
+    width: 13px;
+    color: whitesmoke;
+}
+.copytext {
+    color: white;
+    font-size: 12px;
+    margin-left: 30px;
+    font-weight: bolder;
+    width: 140px;
+}
